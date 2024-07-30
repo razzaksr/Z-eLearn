@@ -6,10 +6,10 @@ POST http://localhost:1234/user/create
 Content-Type: application/json
 
 {
-    "username":"vetri",
-    "encode":"mec",
-    "role":"student",
-    "email":"vetri@gmail.com"
+    "username":"annamalai",
+    "encode":"sam",
+    "role":"teacher",
+    "email":"s.annamalai1995@gmail.com"
 }
 
 ###

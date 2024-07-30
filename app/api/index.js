@@ -3,11 +3,13 @@ const mongoose = require('mongoose')
 require('dotenv').config();
 const parser = require('body-parser')
 const users = require('./controllers/users-rest')
+const courses = require('./controllers/courses-rest')
 
 const api = express()
 api.use(parser.urlencoded({extended:true}))
 api.use(parser.json())
 api.use('/user',users)
+api.use('/course',courses)
 
 const uri = process.env.mongo_uri;
 const clientOptions = { serverApi: { version: '1', strict: true, deprecationErrors: true } };

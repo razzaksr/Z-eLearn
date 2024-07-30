@@ -1,0 +1,14 @@
+POST http://localhost:1234/course/create
+Content-Type: application/json
+
+{
+    "title":"Automation Testing",
+    "description":"Selenium with Java/ Python",
+    "teacher":"66a8ad487e32422eee5f71a5"
+}
+
+###
+
+GET http://localhost:1234/course/teacher/66a8ad487e32422eee5f71a5
+
+###
