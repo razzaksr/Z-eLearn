@@ -1,0 +1,19 @@
+GET http://localhost:1234/user/read
+
+###
+
+POST http://localhost:1234/user/create
+Content-Type: application/json
+
+{
+    "username":"vetri",
+    "encode":"mec",
+    "role":"student",
+    "email":"vetri@gmail.com"
+}
+
+###
+
+DELETE http://localhost:1234/user/delete/66a88fb7b781b650075bc606
+
+###
